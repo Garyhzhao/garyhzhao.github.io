@@ -16,7 +16,21 @@
 .color-white{
     color:white;
 }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 .horizontal-card-img img{
 	width: 100%;
