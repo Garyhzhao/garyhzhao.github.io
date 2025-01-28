@@ -5,11 +5,44 @@
 	font-family: 'Open Sans', sans-serif;
 
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+.navbar {
+  background: linear-gradient(135deg, #4f79b2, #1c3d67);  /* Elegant gradient */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item .navbar-brand {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 .carousel-item img{
 	width: 90%;
 	height: 30%;
-
+ opacity: 0.8;
+  transition: opacity 0.5s ease-in-out;
 
 }
 
@@ -41,12 +74,15 @@ a:active {
 
 }
 
-
+.container {
+  padding: 50px 0;
+}
 
 .about_img{
 	min-width: 100%;
 	max-height: 280px;
-
+ margin-top: 20px;
+  border-radius: 10px;
 }
 
 .my-service img{
@@ -57,9 +93,24 @@ a:active {
 .chekcout-my-profile{
 	background: #a6dcef;
 }
+.btn-outline-info {
+  border-radius: 30px;
+  padding: 12px 25px;
+  font-size: 1rem;
+}
 
+.btn-outline-info:hover {
+  background-color: #1c3d67;
+  color: white;
+}
+footer {
+  background-color: #2b3d4f;
+  padding: 20px;
+}
 footer p{
 	margin-bottom: 0;
+	  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 
 
